@@ -1,0 +1,200 @@
+[01-Aug-2025 18:07:10 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable $settings in /home/elitemaxpro/check.elitemaxpro.click/storage/framework/views/19b7b015ce6b81312e8feb41c035c87b9fe2142c.php:9
+Stack trace:
+#0 /home/elitemaxpro/check.elitemaxpro.click/storage/framework/views/19b7b015ce6b81312e8feb41c035c87b9fe2142c.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/elitemaxp...')
+#2 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#4 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#5 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath()
+#6 /home/elitemaxpro/check.elitemaxpro.click/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get()
+#7 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get()
+#8 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get()
+#9 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#10 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#11 /home/elitemaxpro/check.elitemaxpro.click/storage/framework/views/f8fb873eec5cc73af5eaa0436db9a64cf08fd295.php(5): Illuminate\View\View->render()
+#12 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/elitemaxp...')
+#13 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#14 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#15 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#16 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath()
+#17 /home/elitemaxpro/check.elitemaxpro.click/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get()
+#19 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get()
+#20 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#21 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#22 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#23 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#24 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#25 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#26 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Illuminate\Routing\ResponseFactory->view()
+#27 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#28 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#29 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#31 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#32 {main}
+
+Next Facade\Ignition\Exceptions\ViewException: Undefined variable $settings (View: /home/elitemaxpro/check.elitemaxpro.click/resources/views/errors/minimal.blade.php) in /home/elitemaxpro/check.elitemaxpro.click/resources/views/errors/minimal.blade.php:9
+Stack trace:
+#0 /home/elitemaxpro/check.elitemaxpro.click/resources/views/errors/minimal.blade.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/elitemaxp...')
+#2 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#4 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#5 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath()
+#6 /home/elitemaxpro/check.elitemaxpro.click/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get()
+#7 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get()
+#8 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get()
+#9 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#10 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#11 /home/elitemaxpro/check.elitemaxpro.click/resources/views/errors/500.blade.php(5): Illuminate\View\View->render()
+#12 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/elitemaxp...')
+#13 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#14 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire()
+#15 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath()
+#16 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath()
+#17 /home/elitemaxpro/check.elitemaxpro.click/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get()
+#18 /home/elitemaxpro/check.elitemaxpro.click/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get()
+#19 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get()
+#20 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#21 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#22 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#23 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent()
+#24 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct()
+#25 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make()
+#26 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Illuminate\Routing\ResponseFactory->view()
+#27 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#28 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#29 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render()
+#30 /home/elitemaxpro/check.elitemaxpro.click/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#31 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#32 {main}
+  thrown in /home/elitemaxpro/check.elitemaxpro.click/resources/views/errors/minimal.blade.php on line 9
+[12-Sep-2025 21:34:44 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/demo.lumenvestasset.com/vendor/composer/platform_check.php on line 28
+[12-Sep-2025 21:35:10 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/demo.lumenvestasset.com/vendor/composer/platform_check.php on line 28
+[12-Sep-2025 21:35:10 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/demo.lumenvestasset.com/vendor/composer/platform_check.php on line 28
+[12-Sep-2025 21:35:41 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable $settings in /home/lumenvestasset/demo.lumenvestasset.com/storage/framework/views/3f2f2f44ef6aa191cc1da54a5b6b6110c0c87249.php:9
+Stack trace:
+#0 /home/lumenvestasset/demo.lumenvestasset.com/storage/framework/views/3f2f2f44ef6aa191cc1da54a5b6b6110c0c87249.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Undefined varia...', '/home/lumenvest...', 9)
+#1 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/lumenvest...')
+#2 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/lumenvest...', Array)
+#4 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/lumenvest...', Array)
+#5 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath('/home/lumenvest...', Array)
+#6 /home/lumenvestasset/demo.lumenvestasset.com/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#7 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#8 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get('/home/lumenvest...', Array)
+#9 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#10 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#11 /home/lumenvestasset/demo.lumenvestasset.com/storage/framework/views/9c4cfdd75f87fa560023852f108687fd910b44bd.php(5): Illuminate\View\View->render()
+#12 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/lumenvest...')
+#13 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#14 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/lumenvest...', Array)
+#15 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/lumenvest...', Array)
+#16 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath('/home/lumenvest...', Array)
+#17 /home/lumenvestasset/demo.lumenvestasset.com/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#18 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#19 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get('/home/lumenvest...', Array)
+#20 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#21 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#22 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#23 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#24 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#25 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#26 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#27 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#28 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#29 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Facade\Ignition\Exceptions\ViewException))
+#30 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Facade\Ignition\Exceptions\ViewException))
+#31 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Facade\Ignition\Exceptions\ViewException))
+#32 {main}
+
+Next Facade\Ignition\Exceptions\ViewException: Undefined variable $settings (View: /home/lumenvestasset/demo.lumenvestasset.com/resources/views/errors/minimal.blade.php) in /home/lumenvestasset/demo.lumenvestasset.com/resources/views/errors/minimal.blade.php:9
+Stack trace:
+#0 /home/lumenvestasset/demo.lumenvestasset.com/resources/views/errors/minimal.blade.php(9): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Undefined varia...', '/home/lumenvest...', 9)
+#1 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/lumenvest...')
+#2 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/lumenvest...', Array)
+#4 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/lumenvest...', Array)
+#5 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath('/home/lumenvest...', Array)
+#6 /home/lumenvestasset/demo.lumenvestasset.com/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#7 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#8 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get('/home/lumenvest...', Array)
+#9 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#10 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#11 /home/lumenvestasset/demo.lumenvestasset.com/resources/views/errors/500.blade.php(5): Illuminate\View\View->render()
+#12 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/lumenvest...')
+#13 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#14 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/lumenvest...', Array)
+#15 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(69): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/lumenvest...', Array)
+#16 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Livewire\CompilerEngineForIgnition->evaluatePath('/home/lumenvest...', Array)
+#17 /home/lumenvestasset/demo.lumenvestasset.com/vendor/facade/ignition/src/Views/Engines/CompilerEngine.php(37): Illuminate\View\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#18 /home/lumenvestasset/demo.lumenvestasset.com/vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php(35): Facade\Ignition\Views\Engines\CompilerEngine->get('/home/lumenvest...', Array)
+#19 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(139): Livewire\CompilerEngineForIgnition->get('/home/lumenvest...', Array)
+#20 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\View\View->getContents()
+#21 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#22 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\View\View->render()
+#23 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#24 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(55): Illuminate\Http\Response->__construct(Object(Illuminate\View\View), 500, Array)
+#25 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(85): Illuminate\Routing\ResponseFactory->make(Object(Illuminate\View\View), 500, Array)
+#26 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(582): Illuminate\Routing\ResponseFactory->view('errors::500', Array, 500, Array)
+#27 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#28 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#29 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Facade\Ignition\Exceptions\ViewException))
+#30 /home/lumenvestasset/demo.lumenvestasset.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(173): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Facade\Ignition\Exceptions\ViewException))
+#31 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Facade\Ignition\Exceptions\ViewException))
+#32 {main}
+  thrown in /home/lumenvestasset/demo.lumenvestasset.com/resources/views/errors/minimal.blade.php on line 9
+[13-Sep-2025 23:56:13 UTC] PHP Warning:  require(/home/lumenvestasset/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/lumenvestasset/public_html/index.php on line 34
+[13-Sep-2025 23:56:13 UTC] PHP Warning:  require(/home/lumenvestasset/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/lumenvestasset/public_html/index.php on line 34
+[13-Sep-2025 23:56:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/lumenvestasset/public_html/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/lumenvestasset/public_html/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/lumenvestasset/public_html/index.php on line 34
+[14-Sep-2025 00:00:21 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/public_html/vendor/composer/platform_check.php on line 28
+[14-Sep-2025 00:05:16 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/public_html/vendor/composer/platform_check.php on line 28
+[14-Sep-2025 00:10:15 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/public_html/vendor/composer/platform_check.php on line 28
+[14-Sep-2025 00:15:21 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.1.33. in /home/lumenvestasset/public_html/vendor/composer/platform_check.php on line 28
+[15-Jan-2026 13:47:46 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 13:48:34 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\UserPlan" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 13:50:44 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 13:52:19 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 13:52:50 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\HomeController::Investments() in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 185
+[15-Jan-2026 13:53:28 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\HomeController::Investments() in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 185
+[15-Jan-2026 14:02:31 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 14:02:48 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 14:05:28 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 14:09:15 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 36
+[15-Jan-2026 14:10:06 UTC] PHP Fatal error:  Cannot use App\Models\User_plans as User_plans because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 35
+[15-Jan-2026 14:10:46 UTC] PHP Fatal error:  Cannot use App\Models\User_plans as User_plans because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 35
+[15-Jan-2026 14:13:02 UTC] PHP Fatal error:  Cannot use App\Models\User_plans as User_plans because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 35
+[15-Jan-2026 15:05:27 UTC] PHP Fatal error:  Trait "App\Http\Controllers\Admin\App\Models\User_plans" not found in /home/homefor1/scalpchain.com/account/app/Http/Controllers/Admin/HomeController.php on line 38
+[15-Jan-2026 15:47:46 UTC] PHP Fatal error:  Cannot redeclare App\Models\User_plans::puser() in /home/homefor1/scalpchain.com/account/app/Models/User_plans.php on line 56
+[15-Jan-2026 15:47:55 UTC] PHP Fatal error:  Cannot redeclare App\Models\User_plans::puser() in /home/homefor1/scalpchain.com/account/app/Models/User_plans.php on line 56
+[16-Jan-2026 05:28:43 UTC] PHP Fatal error:  Cannot redeclare App\Models\User_plans::user() in /home/homefor1/scalpchain.com/account/app/Models/User_plans.php on line 50
+[16-Jan-2026 05:30:05 UTC] PHP Fatal error:  Cannot redeclare App\Models\User_plans::user() in /home/homefor1/scalpchain.com/account/app/Models/User_plans.php on line 50
+[16-Jan-2026 05:31:32 UTC] PHP Fatal error:  Cannot redeclare App\Models\User_plans::user() in /home/homefor1/scalpchain.com/account/app/Models/User_plans.php on line 50
+[16-Jan-2026 05:44:24 UTC] PHP Fatal error:  Cannot redeclare App\Models\User_plans::user() in /home/homefor1/scalpchain.com/account/app/Models/User_plans.php on line 50
+[21-Jan-2026 08:39:49 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\User\DepositController::payment() in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/DepositController.php on line 128
+[21-Jan-2026 08:40:09 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\User\DepositController::payment() in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/DepositController.php on line 128
+[23-Jan-2026 00:51:45 UTC] PHP Fatal error:  Cannot declare class App\Models\User, because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/ProfileController.php on line 16
+[23-Jan-2026 00:52:24 UTC] PHP Fatal error:  Cannot declare class App\Models\User, because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/ProfileController.php on line 16
+[23-Jan-2026 00:54:03 UTC] PHP Fatal error:  Cannot declare class App\Models\User, because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/ProfileController.php on line 16
+[23-Jan-2026 00:59:57 UTC] PHP Fatal error:  Cannot declare class App\Models\User, because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/ProfileController.php on line 16
+[23-Jan-2026 01:01:25 UTC] PHP Fatal error:  Cannot declare class App\Models\User, because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/ProfileController.php on line 16
+[23-Jan-2026 01:01:42 UTC] PHP Fatal error:  Cannot declare class App\Models\User, because the name is already in use in /home/homefor1/scalpchain.com/account/app/Http/Controllers/User/ProfileController.php on line 16
+[26-Jan-2026 14:59:12 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 16
+[26-Jan-2026 14:59:17 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 16
+[26-Jan-2026 14:59:25 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 16
+[26-Jan-2026 14:59:55 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 16
+[26-Jan-2026 15:00:02 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 16
+[26-Jan-2026 15:14:01 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 155
+[26-Jan-2026 15:14:06 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 155
+[26-Jan-2026 15:14:17 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 155
+[26-Jan-2026 15:14:37 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 155
+[26-Jan-2026 17:07:24 UTC] PHP Fatal error:  Cannot use App\Models\Investment as Investment because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 180
+[26-Jan-2026 17:07:54 UTC] PHP Fatal error:  Cannot use App\Models\Investment as Investment because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 180
+[26-Jan-2026 17:08:02 UTC] PHP Fatal error:  Cannot use App\Models\Investment as Investment because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 180
+[26-Jan-2026 17:08:06 UTC] PHP Fatal error:  Cannot use App\Models\Investment as Investment because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 180
+[26-Jan-2026 17:08:17 UTC] PHP Fatal error:  Cannot use App\Models\Investment as Investment because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 180
+[26-Jan-2026 17:08:25 UTC] PHP Fatal error:  Cannot use App\Models\Investment as Investment because the name is already in use in /home/homefor1/scalpchain.com/account/routes/web.php on line 180
