@@ -590,7 +590,7 @@
             document.getElementById('detailsContent').innerHTML = '<div class="flex justify-center p-10"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div></div>';
 
             // Use the correct URL format with route parameter
-            const url = `{{ url('/dashboard/copy-trading/analytics') }}/${copyTradeId}`;
+            const url = `/dashboard/copy/analytics/${copyTradeId}`;
             console.log('Fetching URL:', url);
 
             fetch(url)
